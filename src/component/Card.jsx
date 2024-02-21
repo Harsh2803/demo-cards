@@ -55,13 +55,13 @@ const Card = ({ imageUrl, title, email,phoneNumber, link, onDelete, id, onSave }
           <FaHeart
             onClick={handleLike}
             className="icon heart-icon border-icon"
-            style={{ color: "red", outline: "red" }}
+            style={{ color: "rgb(255, 0, 0)", outline: "red" }}
           />
         ) : (
           <CiHeart
             onClick={handleLike}
             className="icon heart-icon border-icon"
-            style={{ color: "red" }}
+            style={{ color: "rgb(255, 0, 0)" }}
           />
         )}
 
